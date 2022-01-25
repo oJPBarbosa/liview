@@ -1,4 +1,5 @@
 import { BrowserWindow, globalShortcut, app } from 'electron';
+import { join } from 'path';
 
 const createWindow: Function = (): BrowserWindow => {
   const window: BrowserWindow = new BrowserWindow({
@@ -7,6 +8,7 @@ const createWindow: Function = (): BrowserWindow => {
     minWidth: 256,
     minHeight: 192,
     alwaysOnTop: true,
+    icon: join(process.cwd(), 'public/static/images/icon.png'),
   });
 
   window.setMenu(null);
