@@ -1,6 +1,6 @@
 const form = document.querySelector('form');
-const button = document.querySelector('#liview-button');
-const input = document.querySelector('#url-input');
+const input = document.querySelector('input');
+const button = document.querySelector('button');
 
 const isValidURL = (url) => {
   try {
@@ -34,8 +34,10 @@ button.addEventListener('click', handleSubmit);
 button.addEventListener('mouseover', () => {
   const url = input.value;
 
-  if (!url) {
+  if (!url || url === 'http://') {
     button.style.cursor = 'not-allowed';
+  } else {
+    button.style.cursor = 'pointer';
   }
 });
 
