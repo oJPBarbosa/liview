@@ -1,29 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Metas -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Liview. A web development-focused live preview electron application."
+      content="LiView. A web development-focused live preview electron application."
     />
     <meta name="author" content="João Pedro Ferreira Barbosa" />
 
-    <title>Liview</title>
+    <title>LiView</title>
 
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/static/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/static/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/static/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="public/static/favicons/site.webmanifest" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/d67355562c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-neutral-900 overflow-hidden">
     <main class="w-screen h-screen flex items-center justify-center">
-      <form class="flex flex-col items-center justify-center">
-        <label>Please insert a URL.</label>
-        <input
-          type="text"
-          id="url-input"
-          class="w-3/8 h-10 focus:outline-none"
-          placeholder="http://localhost:3000"
-        />
-        <button type="submit" id="liview-button">Liview!</button>
+      <form
+        class="w-1/3 min-w-[250px] max-w-[350px] h-1/3 max-h-[180px] flex flex-col items-center justify-around font-3 font-['Inter']"
+      >
+        <label class="text-[#fff7] text-center"
+          >Type in an URL, <br /><span class="text-[#fff9] font-bold"
+            >including http or https</span
+          >.</label
+        >
+        <div
+          class="w-full min-w-[225px] max-w-[275px] h-[3rem] p-[0.5em] flex flex-row items-center justify-around rounded-md border-solid border-2 border-[#fff5] shadow-lg shadow-[#ffffff0d] transition delay-50 duration-500 ease-in-out"
+        >
+          <i class="fas fa-link text-[#fff7]"></i>
+          <div class="w-[1px] h-2/3 bg-[#fff7] rounded-md"></div>
+          <input
+            type="text"
+            id="url-input"
+            class="w-4/5 h-full bg-transparent placeholder:text-[#fff7] text-[#fff] focus:outline-none"
+            placeholder="http://localhost:3000"
+          />
+        </div>
+        <button
+          type="submit"
+          id="liview-button"
+          class="w-full min-w-[225px] max-w-[275px] h-[3rem] flex items-center justify-center bg-red-600 hover:bg-red-500 shadow-lg shadow-red-600/20 rounded-md transition delay-50 duration-500 ease-in-out"
+        >
+          <i class="fas fa-circle text-white text-lg"></i>
+        </button>
       </form>
     </main>
 
