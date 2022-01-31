@@ -11,7 +11,7 @@
   </a>
   <img alt="GitHub" src="https://img.shields.io/github/license/oJPBarbosa/liview.svg">
   <a href="https://www.codacy.com/gh/oJPBarbosa/liview/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oJPBarbosa/liview&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy Badge" src="">
+    <img alt="Codacy Badge" src="https://app.codacy.com/project/badge/Grade/c84c7958d7eb47638c6d0ebe29359392">
   </a>
 </p>
 
