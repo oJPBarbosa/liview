@@ -19,7 +19,9 @@
 
 A web development-focused live preview Electron application.
 
-<img alt="liview-demo" src="https://user-images.githubusercontent.com/79005271/151847159-075dd50f-51a7-4aa8-b301-b4ebd2f8815c.png">
+<p>
+  <img alt="liview-demo" src="https://user-images.githubusercontent.com/79005271/151847159-075dd50f-51a7-4aa8-b301-b4ebd2f8815c.png">
+</p>
 
 ## 🙋 Usage
 
