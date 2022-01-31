@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="liview" src="https://user-images.githubusercontent.com/79005271/151847328-986244c9-3bcd-45c6-ba66-701308d4fbbc.png" />
+  <img alt="liview" width="96px" height="96px" src="https://user-images.githubusercontent.com/79005271/151847328-986244c9-3bcd-45c6-ba66-701308d4fbbc.png" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 A web development-focused live preview Electron application.
 
-<img alt="liview-demo" src="https://user-images.githubusercontent.com/79005271/151847159-075dd50f-51a7-4aa8-b301-b4ebd2f8815c.png>
+<img alt="liview-demo" src="https://user-images.githubusercontent.com/79005271/151847159-075dd50f-51a7-4aa8-b301-b4ebd2f8815c.png">
 
 ## 🙋 Usage
 
